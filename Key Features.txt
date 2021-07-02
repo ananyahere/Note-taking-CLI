@@ -1,0 +1,8 @@
+1. Allows User to ADD, READ, LIST and REMOVE note from command-line 
+2. Uses Chalks for aesthetic effects
+3. Uses Yargs to parse the comman line arguments 
+
+command to add -> node notes.js add --title="note-title" --body="this-is-body-to-note"
+command to list -> node notes.js list 
+command to delete -> node notes.js remove --title="note-title"
+command to read -> node notes.js read --title="note-title" 
